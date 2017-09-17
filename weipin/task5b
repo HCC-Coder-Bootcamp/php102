@@ -1,0 +1,9 @@
+<?php
+
+	$rate = (float)("MYR to USD rate 4.19, MYR" . PHP_EOL);
+
+	$total = $rate / 4.19;
+
+	echo "USD" . (string)$total;
+
+?>
