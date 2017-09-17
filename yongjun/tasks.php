@@ -74,7 +74,7 @@ $task_7 = function(){
 	echo 'Total : RM' . $cashFormat($total_output) . PHP_EOL;
 };
 
-$task = 1;
+$task = '1';
 
 while($task != 'e' && $task != 'E'){
 	$task = readline('Please select the task. (3, 4, 5, 6, 7)' . PHP_EOL . 'Enter E to exit' . PHP_EOL);
