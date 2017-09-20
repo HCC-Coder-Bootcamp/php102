@@ -2,7 +2,7 @@
 
 echo 'Hi, i\'m currency converter,i can help you to convert USD dollar to MYR ! ';
 
-$USD_input = (int)readline('So how much USD you have ?' . PHP_EOL);
+$USD_input = (float)readline('So how much USD you have ?' . PHP_EOL);
 
 $MYR = ($USD_input * 4.19);
 

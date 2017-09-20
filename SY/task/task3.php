@@ -8,5 +8,5 @@ $min = $input_min;
 
 $total_minutes = $hour + $min;
 
-echo $total_minutes . PHP_EOL;
+echo $total_minutes . PHP_EOL .'';
 
