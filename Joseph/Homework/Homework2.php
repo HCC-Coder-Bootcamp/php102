@@ -4,7 +4,7 @@ $AoD = (float)readline('How much is your deposit? RM' . PHP_EOL);
 
 $YoD = (int)readline('And now, how many years?' . PHP_EOL);
 
-$interestRate = 0.041;
+$interestRate = (float)readline('What is the interest rate?' . PHP_EOL);
 
 $totalAmount = $AoD * pow((1 + $interestRate), $YoD);
 $totalInterestGain = $totalAmount - $AoD;
