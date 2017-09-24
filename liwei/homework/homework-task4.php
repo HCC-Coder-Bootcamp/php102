@@ -14,7 +14,7 @@ $amount5 = (int)(($amount-$amount100*100-$amount50*50-$amount20*20-$amount10*10)
 
 $amount2 = (int)(($amount-$amount100*100-$amount50*50-$amount20*20-$amount10*10-$amount5*5) / 2);
 
-$amount1 = (int)(($amount-$amount100*100-$amount50*50-$amount20*20-$amount10*10-$amount5*5-$amount2*2) / 1);
+$amount1 = (int)($amount-$amount100*100-$amount50*50-$amount20*20-$amount10*10-$amount5*5-$amount2*2);
 
 echo "the amount of RM100 is " .((string)$amount100) . " pcs" . PHP_EOL; 
 
