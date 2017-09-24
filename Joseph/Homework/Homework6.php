@@ -2,7 +2,7 @@
 
 $inputNumber = (int)readline('Please enter 5 digits number.' . PHP_EOL);
 
-$ten_thousand = ($inputNumber%10)*10000;
+$tenThousand = ($inputNumber%10)*10000;
 $thousand     = (($inputNumber/10)%10)*1000;
 $hundred      = (($inputNumber/100)%10)*100;
 $tens         = (($inputNumber/1000)%10)*10;
