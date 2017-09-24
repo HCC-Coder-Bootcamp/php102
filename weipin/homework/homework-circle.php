@@ -6,6 +6,6 @@
 
 	$area = 3.14 * $radius * $radius;
 
-	echo 'Perimeter:' . (string)$perimeter . PHP_EOL . 'Area:' . (string)$area;
+	echo 'Perimeter of circle: ' . (string)$perimeter . 'cm' . PHP_EOL . 'Area of circle: ' . (string)$area . 'cm2';
 
  ?>
